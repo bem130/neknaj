@@ -188,8 +188,6 @@ do
     PrintLine("正答率　: "+tfs+"%")
     PrintLine("スコア: "+score)
     PrintLine("")
-    ofile.WriteLine(all_time+","+allqc+","+tfs+","+score+","+CStr(Now))
-    ofile.close()
     WScript.Sleep(1000)
     Print("もう一度しますか[y/N]: ")
     next_ = Input()
